@@ -1,0 +1,157 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Интернет-магазин</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f4f4f4; 
+        } 
+        header { 
+            background: #333; 
+            color: #fff; 
+            padding: 20px 0; 
+        } 
+        header h1 { 
+            margin: 0; 
+            text-align: center; 
+        } 
+        nav ul { 
+            list-style: none; 
+            padding: 0; 
+            text-align: center; 
+        } 
+        nav ul li { 
+            display: inline; 
+            margin: 0 15px; 
+        } 
+        nav ul li a { 
+            color: #fff; 
+            text-decoration: none; 
+            font-weight: bold; 
+        } 
+        nav ul li a:hover { 
+            text-decoration: underline; 
+        } 
+        main { 
+            padding: 20px; 
+            display: flex; 
+            flex-wrap: wrap; 
+        } 
+        section { 
+            flex: 3; 
+            margin-right: 20px; 
+            margin-bottom: 20px; 
+            background: #fff; 
+            padding: 15px; 
+            border-radius: 8px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+        } 
+        aside { 
+            flex: 1; 
+            background: #e2e2e2; 
+            padding: 15px; 
+            border-radius: 8px; 
+        } 
+        article { 
+            margin-bottom: 15px; 
+        } 
+        article h3 { 
+            margin: 0; 
+        } 
+        mark { 
+            background-color: rgb(0, 251, 155); 
+            color: #000; 
+        } 
+        figure { 
+            text-align: center; 
+        } 
+        footer { 
+            text-align: center; 
+            padding: 10px 0; 
+            background: #333; 
+            color: #fff; 
+        } 
+        details summary { 
+            cursor: pointer; 
+            font-weight: bold; 
+            margin-bottom: 10px; 
+        } 
+        details p { 
+            margin: 0; 
+        } 
+        @media (max-width: 768px) { 
+            main { 
+                flex-direction: column; 
+            } 
+            section { 
+                margin-right: 0; 
+                margin-bottom: 20px; 
+            } 
+            aside { 
+                margin-bottom: 20px; 
+            } 
+        } 
+    </style> 
+</head> 
+<body> 
+    <header> 
+        <h1>Интернет-магазин "10palok"</h1> 
+        <nav> 
+            <ul> 
+                <li><a href="#">Главная</a></li> 
+                <li><a href="#">Каталог</a></li> 
+                <li><a href="#">О нас</a></li> 
+                <li><a href="#">Контакты</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+    <main> 
+        <section> 
+            <header> 
+                <h2>Текущие предложения</h2> 
+            </header> 
+            <article> 
+                <header> 
+                    <h3>Клюшка S21 BAUER X</h3> 
+                    <p>Цена: <mark>7712 руб.</mark></p> 
+                    <time datetime="2024-11-12">Дата добавления: 12 ноября 2024 г.</time> 
+                </header> 
+                <figure> 
+                    <img src="https://avatars.mds.yandex.net/get-mpic/5387588/img_id5717843168954578864.png/optimize" alt="клюшка1"> 
+                    <figcaption>Изображение Клюшки S21 BAUER X</figcaption> 
+                </figure> 
+                <p>Клюшка хоккейная BAUER X GRIP модель сезона 2021 года позволяет уверенно вести шайбу и выполнять быстрые броски по воротам.</p> 
+            </article> 
+            <article> 
+                <header> 
+                    <h3>Клюшка хоккейная BAUER Vapor</h3> 
+                    <p>Цена: <mark>9340  руб.</mark></p> 
+                    <time datetime="2024-11-12">Дата добавления: 12 ноября 2024 г.</time> 
+                </header> 
+                <figure>
+                    <img src="https://avatars.mds.yandex.net/get-mpic/2017291/img_id4610800467311388085.jpeg/optimize" alt="клюшка2">
+<figcaption>Изображение Клюшки хоккейная BAUER Vapor</figcaption> 
+                </figure> 
+                <p>Клюшка хоккейная BAUER Vapor Tyke S23 Grip 10 P92 R 1061719. сочетающая в себе легкость и прочность композитных материалов.</p> 
+            </article> 
+        </section> 
+        <aside> 
+            <h2>Специальное предложение</h2> 
+            <p>Скидка 15% на все товары при оплате картой "Мир".</p> 
+        </aside> 
+        <details> 
+            <summary>Подробнее о доставке</summary> 
+            <p>Мы предлагаем бесплатную доставку по всей России при заказе от 1000000 руб.</p> 
+        </details> 
+    </main> 
+    <footer> 
+        <p>© 2024 Интернет-магазин "10palok". Все права защищены.</p> 
+        <p>Контакты: info@10palok.ru | Телефон: +7 (495) 111-11-11</p> 
+    </footer> 
+</body> 
+</html>
